@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-dark bg-black fixed-top">
             <div class="container-fluid">
                 <button class="navbar-toggler mx-3" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
@@ -26,17 +26,12 @@
                         alt="Ícono de Youtube Premium"></a>
                 <form class="d-flex mx-auto" style="margin: 0 auto;">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                        style="-webkit-appearance: none; appearance: none; color: white; width: 500px;">
-                    <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"
+                        style="--bs-body-bg: black; color: white; width: 500px;">
+                    <button class="btn btn-outline-secondary mx-2" type="submit"><i class="fas fa-search"
                             style="color: white;"></i></button>
                     <button class="btn btn-outline-secondary" type="button"><i class="fas fa-microphone"
                             style="color: white;"></i></button>
                 </form>
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-bell me-3"></i>
-                    <i class="fas fa-comment me-3"></i>
-                    <i class="fas fa-user-circle"></i>
-                </div>
                 <div class="offcanvas offcanvas-start text-bg-white" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
@@ -44,8 +39,8 @@
                             <a href="index.html">
                                 <i class="fas fa-regular fa-bars mx-3"></i>
                             </a>
-                                <img src="assets/img/YouTube_Premium_logo.svg (1).png"
-                                    alt="Ícono de Youtube sobre fondo blanco">
+                            <img src="assets/img/YouTube_Premium_logo.svg (1).png"
+                                alt="Ícono de Youtube sobre fondo blanco">
                         </h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
@@ -53,26 +48,64 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><i
-                                        class="fas fa-home"></i>Home</a>
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Principal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>shorts</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Subscriptions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Originals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Youtube Music</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Record</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Your videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Watch later</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Downloads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-3"></i>Videos i like</a>
+                            </li><li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
+                                  aria-expanded="false">
+                                  Dropdown
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li>
+                                    <hr class="dropdown-divider">
+                                  </li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                            </li>
+                              </li>
+
                         </ul>
                     </div>
                 </div>
