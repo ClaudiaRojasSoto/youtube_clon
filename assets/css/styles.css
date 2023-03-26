@@ -3,8 +3,4 @@ img {
     height: auto;
   }
 
-
-  .form-control::placeholder {
-    color: #ffffff; /* Color de texto */
-    background-color: #000000; /* Color de fondo */
-  }
+/* Centra el formulario */
