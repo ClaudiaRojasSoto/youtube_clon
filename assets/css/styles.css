@@ -8,6 +8,12 @@ img {
   }
   
   
+  body {
+    margin-top: 60px; /* add margin top */
+  }
   
   
+  .navbar {
+    height: 50px; /* hight adjust */
+  }
   
